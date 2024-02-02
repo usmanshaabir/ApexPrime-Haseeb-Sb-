@@ -6,7 +6,7 @@ export default function index() {
   return (
     <>
       <Routes>
-        <Route path='home' element={<Home />} />
+        <Route index element={<Home />} />
       </Routes>
     </>
   )

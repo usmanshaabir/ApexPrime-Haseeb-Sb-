@@ -1,7 +1,10 @@
 import React from 'react'
+import HomeTopPage from './HomeTopPage'
 
 export default function HomePage() {
     return (
-        <div>HomePage</div>
+        <div>
+            <HomeTopPage />
+        </div>
     )
 }

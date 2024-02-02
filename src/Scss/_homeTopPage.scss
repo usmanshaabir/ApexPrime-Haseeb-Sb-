@@ -1,0 +1,62 @@
+.heroContainer {
+    position: relative;
+    min-height: 85vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    background-image: url('../Assets/Images/heroSection.jpg'); // Adjust the path accordingly
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed; // This makes the background image fixed during scroll
+
+
+}
+
+@media (max-width: 430px) {
+    .heroContainer {
+        height: 200vh !important;
+    }
+}
+
+@media (min-width: 431px) and (max-width: 1442px) {
+    .heroContainer {
+        height: 150vh !important;
+    }
+}
+
+.content {
+    position: absolute;
+    top: 25%; // Adjust based on your content's position
+    z-index: 3; // Ensure the content is above the overlay
+}
+
+.overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); // This is a black overlay with 50% opacity
+    z-index: 2; // Ensure the overlay is above the image but below the content
+}
+
+.backgroundImage {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    bottom: 0;
+    z-index: 1; // Ensure the image is behind the overlay and content
+    background-attachment: fixed;
+
+}
+
+.button {
+    margin: 0 10px; // Adjust spacing as needed
+    padding: 10px 20px; // Adjust button padding as needed
+    background-color: #E89F71;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
