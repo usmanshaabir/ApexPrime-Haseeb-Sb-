@@ -2,6 +2,7 @@ import React from 'react';
 import { Routes, Route } from 'react-router-dom';
 import Frontend from "./Frontend";
 import Header from "../Components/Header"
+import Footer from "../Components/Footer"
 
 export default function PrivateRoutes() {
     return (
@@ -10,6 +11,7 @@ export default function PrivateRoutes() {
             <Routes >
                 <Route path='/*' element={<Frontend />} />
             </Routes>
+            <Footer />
         </>
     )
 }
