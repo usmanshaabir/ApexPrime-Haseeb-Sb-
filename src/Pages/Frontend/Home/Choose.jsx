@@ -17,7 +17,7 @@ const Choose = () => {
             <div className="col-md-8">
               <div className="row">
                 <div className="col-md-6">
-                  <div class="card text-white" style={{ backgroundColor: "#212121" }}>
+                  <div class="card text-white card-responsive" style={{ backgroundColor: "#212121" }}>
                     <div class="card-body">
                       <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper.</p>
                       <span className='display-4'>Creative Excellent</span>
@@ -37,7 +37,7 @@ const Choose = () => {
               </div>
               <div className="row mt-3">
                 <div className="col-md-6">
-                  <div class="card text-white" style={{ backgroundColor: "#212121" }}>
+                  <div class="card text-white card-responsive" style={{ backgroundColor: "#212121" }}>
                     <div class="card-body">
                       <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper.</p>
                       <span className='display-4'>Creative Excellent</span>

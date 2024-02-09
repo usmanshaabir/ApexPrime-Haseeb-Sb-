@@ -8,9 +8,11 @@ export default function PrivateRoutes() {
     return (
         <>
             <Header />
-            <Routes >
-                <Route path='/*' element={<Frontend />} />
-            </Routes>
+            <main>
+                <Routes >
+                    <Route path='/*' element={<Frontend />} />
+                </Routes>
+            </main>
             <Footer />
         </>
     )

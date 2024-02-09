@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 export default function Navbar() {
   return (
@@ -13,38 +14,29 @@ export default function Navbar() {
               <div className="collapse navbar-collapse justify-content-end" id="navbarNav">
                 <ul className="navbar-nav">
                   <li className="nav-item">
-                    <a className="nav-link active" aria-current="page" href="#">Home</a>
+                    <Link to="/" className="nav-link active" aria-current="page" >Home</Link >
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link" href="#">About Us</a>
+                    <Link to="about" className="nav-link active" >About Us</Link>
                   </li>
-
-                  {/* Dropdown for Services */}
-                  <li className="nav-item dropdown">
-                    <a className="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Services
-                    </a>
-                    <ul className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                      <li><a className="dropdown-item" href="#">Service 1</a></li>
-                      <li><a className="dropdown-item" href="#">Service 2</a></li>
-                      <li><a className="dropdown-item" href="#">Service 3</a></li>
-                    </ul>
+                  <li className="nav-item">
+                    <Link to="services" className="nav-link active" >Services</Link>
                   </li>
 
                   {/* Dropdown for Pages */}
                   <li className="nav-item dropdown">
-                    <a className="nav-link dropdown-toggle" href="#" id="navbarDropdownPagesLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <a className="nav-link dropdown-toggle active" id="navbarDropdownPagesLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                       Pages
                     </a>
                     <ul className="dropdown-menu" aria-labelledby="navbarDropdownPagesLink">
-                      <li><a className="dropdown-item" href="#">Page 1</a></li>
-                      <li><a className="dropdown-item" href="#">Page 2</a></li>
-                      <li><a className="dropdown-item" href="#">Page 3</a></li>
+                      <li><a className="dropdown-item" >Page 1</a></li>
+                      <li><a className="dropdown-item" >Page 2</a></li>
+                      <li><a className="dropdown-item" >Page 3</a></li>
                     </ul>
                   </li>
 
                   <li className="nav-item">
-                    <a className="nav-link" href="#">Contact Us</a>
+                    <a className="nav-link active" >Contact Us</a>
                   </li>
                 </ul>
               </div>

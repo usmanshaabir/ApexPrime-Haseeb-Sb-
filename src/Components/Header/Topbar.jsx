@@ -10,7 +10,7 @@ export default function Topbar() {
           <div className='d-flex justify-content-between'>
             <div className='d-flex align-items-center'>
               <img src={location} alt="Location" style={{ marginRight: '10px' }} />
-              <p className='mb-0'>KLLG st, No.99, Pku City, ID 28289</p>
+              <p className='mb-0'>Chanone road cityMall Plaza</p>
             </div>
             <div className='d-flex align-items-center'>
               <img src={clock} alt="Clock" style={{ marginRight: '10px' }} />
