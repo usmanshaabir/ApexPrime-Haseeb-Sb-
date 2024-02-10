@@ -22,21 +22,11 @@ export default function Navbar() {
                   <li className="nav-item">
                     <Link to="services" className="nav-link active" >Services</Link>
                   </li>
-
-                  {/* Dropdown for Pages */}
-                  <li className="nav-item dropdown">
-                    <a className="nav-link dropdown-toggle active" id="navbarDropdownPagesLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Pages
-                    </a>
-                    <ul className="dropdown-menu" aria-labelledby="navbarDropdownPagesLink">
-                      <li><a className="dropdown-item" >Page 1</a></li>
-                      <li><a className="dropdown-item" >Page 2</a></li>
-                      <li><a className="dropdown-item" >Page 3</a></li>
-                    </ul>
-                  </li>
-
                   <li className="nav-item">
-                    <a className="nav-link active" >Contact Us</a>
+                    <Link to="project" className="nav-link active" >Our Project</Link>
+                  </li>
+                  <li className="nav-item">
+                    <Link to="contact" className="nav-link active" >Contact Us</Link>
                   </li>
                 </ul>
               </div>
