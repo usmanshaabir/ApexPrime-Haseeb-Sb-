@@ -133,3 +133,24 @@ main {
 //         0 8px 0 -4px #39a2db,
 //         0 12px 10px -3px #39a2db;
 // }
+
+
+.scroll-to-up {
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    cursor: pointer;
+    z-index: 3;
+
+}
+
+.borderBottom {
+    border-bottom: 3px red solid;
+}
+
+/* Add this to your CSS file */
+@media screen and (max-width: 430px) {
+    .hide-on-small-screens {
+        display: none;
+    }
+}

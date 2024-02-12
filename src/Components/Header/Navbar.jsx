@@ -1,7 +1,13 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 
 export default function Navbar() {
+  const [activeLink, setActiveLink] = useState('home');
+
+  const handleActive = (event) => {
+    setActiveLink(event)
+  }
+
   return (
     <div className="bg-dark">
       <div className="container">
@@ -14,19 +20,19 @@ export default function Navbar() {
               <div className="collapse navbar-collapse justify-content-end" id="navbarNav">
                 <ul className="navbar-nav">
                   <li className="nav-item">
-                    <Link to="/" className="nav-link active" aria-current="page" >Home</Link >
+                    <Link to="/" className={`nav-link active ${activeLink === "home" ? 'borderBottom' : ""}`} onClick={() => handleActive("home")} aria-current="page" >Home</Link >
                   </li>
                   <li className="nav-item">
-                    <Link to="about" className="nav-link active" >About Us</Link>
+                    <Link to="about" className={`nav-link active ${activeLink === "about" ? 'borderBottom' : ""}`} onClick={() => handleActive("about")}>About Us</Link>
                   </li>
                   <li className="nav-item">
-                    <Link to="services" className="nav-link active" >Services</Link>
+                    <Link to="services" className={`nav-link active ${activeLink === "service" ? 'borderBottom' : ""}`} onClick={() => handleActive("service")}>Services</Link>
                   </li>
                   <li className="nav-item">
-                    <Link to="project" className="nav-link active" >Our Project</Link>
+                    <Link to="project" className={`nav-link active ${activeLink === "project" ? 'borderBottom' : ""}`} onClick={() => handleActive("project")}>Our Project</Link>
                   </li>
                   <li className="nav-item">
-                    <Link to="contact" className="nav-link active" >Contact Us</Link>
+                    <Link to="contact" className={`nav-link active ${activeLink === "contact" ? 'borderBottom' : ""}`} onClick={() => handleActive("contact")}>Contact Us</Link>
                   </li>
                 </ul>
               </div>
