@@ -21,19 +21,19 @@ const HomeTopPage = () => {
         <div className="container">
           <div className="row">
             <div className="col-md-3 card-responsive">
-              <h4 className='ps-5 ms-4 text-white '>15+</h4>
+              <h4 className='ps-5 ms-4 text-white heading-number'>15+</h4>
               <h4 className='text-white'>Years of Experience</h4>
             </div>
-            <div className="col-md-3">
-              <h4 className='ps-5 ms-4 text-white'>97%</h4>
+            <div className="col-md-3 card-responsive">
+              <h4 className='ps-5 ms-4 text-white heading-number'>97%</h4>
               <h4 className='text-white'>Client Statisfaction</h4>
             </div>
-            <div className="col-md-3">
-              <h4 className='ps-5 ms-4 text-white'>350+</h4>
+            <div className="col-md-3 card-responsive">
+              <h4 className='ps-5 ms-4 text-white heading-number'>350+</h4>
               <h4 className='text-white'>Complete Project</h4>
             </div>
-            <div className="col-md-3">
-              <h4 className='ps-5 ms-4 text-white'>24+</h4>
+            <div className="col-md-3 card-responsive">
+              <h4 className='ps-5 ms-4 text-white heading-number'>24+</h4>
               <h4 className='text-white'>Award & Nominee</h4>
             </div>
           </div>

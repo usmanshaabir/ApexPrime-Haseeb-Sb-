@@ -22,7 +22,7 @@ const OurProject = () => {
                     <div className="col-md-6 mb-3">
                         <div className="card border-0">
                             <div className="card-body">
-                                <h3 className="card-title px-3" style={{ fontSize: "3.5rem" }}>Harmony In Hues: Interior Concept</h3>
+                                <h3 className="card-title px-3 headingForInterior" >Harmony In Hues: Interior Concept</h3>
                                 <div className='d-flex justify-content-around'>
                                     <div style={{ color: "#C0C0C0" }}>Date : 21 januari 2024</div>
                                     <div style={{ color: "#C0C0C0" }}>Author : mpirtm</div>
@@ -34,7 +34,7 @@ const OurProject = () => {
                     <div className="col-md-6 mb-3">
                         <div className="card border-0">
                             <div className="card-body">
-                                <h3 className="card-title px-3" style={{ fontSize: "3.5rem" }}>Harmony In Hues: Interior Concept</h3>
+                                <h3 className="card-title px-3 headingForInterior" >Harmony In Hues: Interior Concept</h3>
                                 <div className='d-flex justify-content-around'>
                                     <div style={{ color: "#C0C0C0" }}>Date : 21 januari 2024</div>
                                     <div style={{ color: "#C0C0C0" }}>Author : mpirtm</div>

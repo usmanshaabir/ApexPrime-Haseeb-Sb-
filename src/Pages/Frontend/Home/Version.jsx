@@ -1,4 +1,5 @@
 import React from 'react';
+import "../../../Scss/_homeStyling.scss"
 
 
 const Version = () => {
@@ -8,7 +9,7 @@ const Version = () => {
         <div className="row mb-4">
           <div className="col-lg-6">
             <h5 className='mb-4'>Xhilo’s Vision</h5>
-            <h2 className="display-4" style={{ fontSize: "75px" }}>Our Vision</h2>
+            <h2 className="display-4 our-vision" style={{ fontSize: "75px" }}>Our Vision</h2>
             <p className='mt-4 w-75'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
           </div>
           <div className="col-lg-6 d-flex flex-column justify-content-around">

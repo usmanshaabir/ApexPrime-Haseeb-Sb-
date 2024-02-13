@@ -1,10 +1,21 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import archecturalDesgin from "../../../Assets/Images/archectural.jpg"
 import interiorDesgin from "../../../Assets/Images/interior.jpg"
 import remoldingDesgin from "../../../Assets/Images/remoldingImage.jpg"
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 
 const OurServices = () => {
+  useEffect(() => {
+    // Initialize AOS
+    AOS.init({
+      // Here you can find all the AOS attributes: https://michalsnik.github.io/aos/
+      duration: 2000, // values from 0 to 3000, with step 50ms
+      once: false, // whether animation should happen only once - while scrolling down
+      // ...more options
+    });
+  }, []);
   return (
     <section className="services-section py-5" style={{ backgroundColor: "#EDE4D9" }}>
       <div className="container">
@@ -19,7 +30,7 @@ const OurServices = () => {
           </div>
         </div>
         <div className="row mt-5 pt-5">
-          <div className="col-md-4 mb-3">
+          <div className="col-md-4 mb-3 " data-aos="fade-up">
             <div className="card border-0">
               <img src={archecturalDesgin} className="card-img-top rounded-5 p-3" alt="Architectural" />
               <div className="card-body">
@@ -29,7 +40,7 @@ const OurServices = () => {
               </div>
             </div>
           </div>
-          <div className="col-md-4 mb-3">
+          <div className="col-md-4 mb-3" data-aos="fade-down">
             <div className="card border-0">
               <img src={interiorDesgin} className="card-img-top rounded-5 p-3" alt="Architectural" />
               <div className="card-body">
@@ -39,7 +50,7 @@ const OurServices = () => {
               </div>
             </div>
           </div>
-          <div className="col-md-4 mb-3">
+          <div className="col-md-4 mb-3" data-aos="fade-up">
             <div className="card border-0">
               <img src={remoldingDesgin} className="card-img-top rounded-5 p-3" alt="Architectural" />
               <div className="card-body">

@@ -7,6 +7,7 @@ import location from "../../Assets/Images/locationFooter.png";
 import phoneNumber from "../../Assets/Images/phone-call.png";
 import email from "../../Assets/Images/email.png";
 
+
 export default function FooterPage() {
   return (
     <>
@@ -45,11 +46,11 @@ export default function FooterPage() {
               <li className='text-light pb-2' style={{ listStyleType: "none" }}> <img src={phoneNumber} className='me-2' alt="phoneNumber lcon not found" />+92 304 7649053</li>
               <li className='text-light pb-2' style={{ listStyleType: "none" }}> <img src={email} className='me-2' alt="email lcon not found" />mnaumanshabbir@gmail.com</li>
             </div>
-            <div className='d-flex justify-content-between mb-5'>
+            <div className='policy mb-5'>
               <div className='text-light'>
                 <span className='pe-3'>Privacy Policy</span> <span>Term & Services</span>
               </div>
-              <div className='text-light'>
+              <div className='text-light copyright'>
                 <span className='pe-3'>Copyright © 2024 Apex Prime. All Rights Reserved.</span>
               </div>
             </div>

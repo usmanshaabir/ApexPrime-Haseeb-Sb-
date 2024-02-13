@@ -8,8 +8,8 @@ export default function InteriorServices() {
         <div className="container">
           <div className="row">
             <div className="col-md-8">
-              <h2 className='display-4' style={{ fontSize: "85px" }}>Interior </h2>
-              <h2 className='display-4' style={{ fontSize: "85px" }}>Services</h2>
+              <h2 className='display-4 interiorService' >Interior </h2>
+              <h2 className='display-4 interiorService' >Services</h2>
               <h5 className='mt-4 mb-5'>Explore a spectrum of design services tailored to meet your every need</h5>
               <p >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
               <p >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>

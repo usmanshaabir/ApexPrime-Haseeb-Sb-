@@ -70,8 +70,12 @@ main {
     }
 
     @media (max-width:790px) {
-        font-size: 65px;
+        font-size: 65px !important;
         text-align: center;
+    }
+
+    @media (max-width:430px) {
+        font-size: 29px !important;
     }
 }
 
@@ -83,9 +87,14 @@ main {
     z-index: 1;
     color: white;
 
+    @media (max-width:770px) {
+        top: 63%;
+        font-size: 1rem !important;
+    }
+
 }
 
-.image-wrapper {
+.parallaxForService .image-wrapper {
     border-right: 2px solid #808080;
     ;
     /* Set border width and color */
@@ -146,11 +155,41 @@ main {
 
 .borderBottom {
     border-bottom: 3px red solid;
+
+    @media (max-width:770px) {
+        width: 80px;
+    }
 }
 
 /* Add this to your CSS file */
 @media screen and (max-width: 430px) {
     .hide-on-small-screens {
         display: none;
+    }
+}
+
+.interiorService {
+    font-size: 85px;
+
+    @media (max-width:770px) {
+        font-size: 58px !important;
+
+    }
+}
+
+.policy {
+    display: flex;
+    justify-content: space-between;
+
+    @media (max-width:430px) {
+        display: inline-block !important;
+        margin-top: 10px;
+
+    }
+}
+
+.copyright {
+    @media (max-width:430px) {
+        margin-top: 10px;
     }
 }

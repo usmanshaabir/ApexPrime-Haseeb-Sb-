@@ -6,7 +6,7 @@ export default function ServicesHeader() {
       <header>
         <div className='parallax'>
           <h2 className=' aboutSection'>Service Details</h2>
-          <h5 className='about'>Home / Service Details</h5>
+          <h5 className='about text-center'>Home / Service Details</h5>
         </div>
       </header>
     </>
