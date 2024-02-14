@@ -12,7 +12,7 @@ export default function InteriorPower() {
           </div>
           <div className="row mt-5 mb-5 ">
             <div className="col-md-6 ">
-              <img src={interiorPower} className='img-fluid rounded me-5' alt="interiorPower image not found" />
+              <img src={interiorPower} className='img-fluid rounded me-5' alt="interiorPower icon not found" />
             </div>
             <div className="col-md-6 d-flex flex-column justify-content-end">
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>

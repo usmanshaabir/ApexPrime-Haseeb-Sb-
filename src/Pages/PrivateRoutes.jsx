@@ -1,5 +1,6 @@
 import React from 'react';
 import ScrollToUp from "../Assets/Images/up-arrow.png";
+import whatsApp from "../Assets/Images/whatsapp.png";
 import { Routes, Route } from 'react-router-dom';
 import Frontend from "./Frontend";
 import Header from "../Components/Header"
@@ -12,12 +13,21 @@ export default function PrivateRoutes() {
       behavior: 'smooth'
     });
   };
+
+  const scrollWhatsApp = () => {
+    const whatsAppNumber = "03057471443";
+    const whatsAppLink = `https://wa.me/${whatsAppNumber}`;
+    window.open(whatsAppLink, '_blank');
+  }
   return (
     <>
       <Header />
       <main>
         <div className='text-end'>
           <img src={ScrollToUp} onClick={scrollToTop} className="scroll-to-up" alt="ScrollToUp Not Found" />
+        </div>
+        <div className='text-start'>
+          <img src={whatsApp} onClick={scrollWhatsApp} className="whats-app" alt="ScrollToUp Not Found" />
         </div>
         <Routes >
           <Route path='/*' element={<Frontend />} />

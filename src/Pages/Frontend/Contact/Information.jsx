@@ -25,6 +25,7 @@ const Information = () => {
       })
       .then(
         () => {
+          setState(initState)
           console.log('SUCCESS!');
           toast("Data sent Successfully!");
           setIsApploading(true)
@@ -53,16 +54,16 @@ const Information = () => {
           <div className="col-md-6">
             <form ref={form} onSubmit={handleSubmit}>
               <div className="mb-3">
-                <input type="text" name="name" onChange={(event) => setState({ ...state, name: event.target.value })} className="form-control" placeholder="Your name here" />
+                <input type="text" name="name" value={state.name} onChange={(event) => setState({ ...state, name: event.target.value })} className="form-control" placeholder="Your name here" />
               </div>
               <div className="mb-3">
-                <input type="email" name="email" onChange={(event) => setState({ ...state, email: event.target.value })} className="form-control" placeholder="Your email here" />
+                <input type="email" name="email" value={state.email} onChange={(event) => setState({ ...state, email: event.target.value })} className="form-control" placeholder="Your email here" />
               </div>
               <div className="mb-3">
-                <input type="tel" name="phone" onChange={(event) => setState({ ...state, phone: event.target.value })} className="form-control" placeholder="Your phone number" />
+                <input type="tel" name="phone" value={state.phone} onChange={(event) => setState({ ...state, phone: event.target.value })} className="form-control" placeholder="Your phone number" />
               </div>
               <div className="mb-3">
-                <textarea className="form-control" name="message" onChange={(event) => setState({ ...state, message: event.target.value })} rows="5" placeholder="Your message here"></textarea>
+                <textarea className="form-control" value={state.message} name="message" onChange={(event) => setState({ ...state, message: event.target.value })} rows="5" placeholder="Your message here"></textarea>
               </div>
               <div className="d-grid">
                 <button type="submit" value="send" className="btn btn-dark">{isApploading ? "Send Message" : <span class="spinner-border text-light" role="status">

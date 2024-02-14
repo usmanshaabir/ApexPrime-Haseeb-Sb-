@@ -1,9 +1,18 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import choose from "../../../Assets/Images/choose.jpg";
-import "../../../Scss/_homeStyling.scss"
+import "../../../Scss/_homeStyling.scss";
+import AOS from "aos";
+import "aos/dist/aos.css"
+
 
 
 const Choose = () => {
+  useEffect(() => {
+    AOS.init({
+      duration: 2000,
+      once: true,
+    });
+  }, []);
   return (
     <>
       <section className="why-choose-us py-5">
@@ -17,7 +26,7 @@ const Choose = () => {
           <div className="row">
             <div className="col-md-8">
               <div className="row">
-                <div className="col-md-6">
+                <div className="col-md-6" data-aos="fade-down-right">
                   <div class="card text-white card-responsive" style={{ backgroundColor: "#212121" }}>
                     <div class="card-body">
                       <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper.</p>
@@ -26,7 +35,7 @@ const Choose = () => {
                     </div>
                   </div>
                 </div>
-                <div className="col-md-6">
+                <div className="col-md-6" data-aos="fade-down-left">
                   <div class="card text-white" style={{ backgroundColor: "#212121" }}>
                     <div class="card-body">
                       <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper.</p>
@@ -37,7 +46,7 @@ const Choose = () => {
                 </div>
               </div>
               <div className="row mt-3">
-                <div className="col-md-6">
+                <div className="col-md-6" data-aos="fade-up-right" >
                   <div class="card text-white card-responsive" style={{ backgroundColor: "#212121" }}>
                     <div class="card-body">
                       <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper.</p>
@@ -46,7 +55,7 @@ const Choose = () => {
                     </div>
                   </div>
                 </div>
-                <div className="col-md-6">
+                <div className="col-md-6" data-aos="fade-up-left">
                   <div class="card text-white" style={{ backgroundColor: "#212121" }}>
                     <div class="card-body">
                       <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper.</p>
@@ -58,7 +67,7 @@ const Choose = () => {
               </div>
             </div>
             <div className="col-md-4">
-              <img src={choose} className='img-fluid rounded h-100' alt="Choose Photo Not Found" />
+              <img src={choose} className='img-fluid rounded h-100' alt="Choose icon Not Found" />
             </div>
           </div>
         </div>

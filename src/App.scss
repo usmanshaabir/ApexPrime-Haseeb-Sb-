@@ -153,6 +153,14 @@ main {
 
 }
 
+.whats-app {
+    position: fixed;
+    left: 10px;
+    bottom: 10px;
+    cursor: pointer;
+    z-index: 3;
+}
+
 .borderBottom {
     border-bottom: 3px red solid;
 
