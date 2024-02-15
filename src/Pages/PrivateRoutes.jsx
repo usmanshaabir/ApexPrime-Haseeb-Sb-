@@ -15,8 +15,7 @@ export default function PrivateRoutes() {
   };
 
   const scrollWhatsApp = () => {
-    const whatsAppNumber = "03057471443";
-    const whatsAppLink = `https://wa.me/${whatsAppNumber}`;
+    const whatsAppLink = 'https://wa.me/+923047649053';
     window.open(whatsAppLink, '_blank');
   }
   return (

@@ -1,5 +1,7 @@
 import React from 'react';
-import ourProject1 from "../../../Assets/Images/ourproject.jpg"
+import ourProject1 from "../../../Assets/Images/212p.jpg"
+import ourProject2 from "../../../Assets/Images/sdf.jpg"
+import ourProject3 from "../../../Assets/Images/project3.jpg"
 import { Link } from 'react-router-dom';
 
 export default function OurJounery() {
@@ -17,44 +19,38 @@ export default function OurJounery() {
           </div>
           <div className="col-md-7">
             <div className='ms-4'>
-              <p>January 22, 2024</p>
-              <h2>Design Todays: Chronicles Creativity in
-                Interior Briliance</h2>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                aliquip ex ea commodo consequat. Duis aute irure dolor…</p>
+              <p>April 20, 2022</p>
+              <h2>Design Todays: </h2>
+              <h2>Create A Elevation In FSD</h2>
+              <p>Creating a building elevation involves designing the exterior appearance of a structure, considering style, materials, and proportions. These drawings serve as visual guides for construction, helping convey the intended look of the building to clients and teams</p>
               <Link to="">Read More</Link>
             </div>
           </div>
         </div>
         <div className="row mt-5">
           <div className="col-md-5 image-wrapper">
-            <img src={ourProject1} className='img-fluid rounded me-5' alt="first project not found" />
+            <img src={ourProject2} className='img-fluid rounded me-5' alt="first project not found" />
           </div>
           <div className="col-md-7">
             <div className='ms-4'>
               <p>January 22, 2024</p>
-              <h2>Design Todays: Chronicles Creativity in
-                Interior Briliance</h2>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                aliquip ex ea commodo consequat. Duis aute irure dolor…</p>
+              <h2>Design Todays: </h2>
+              <h2>Create A Elevation In FSD</h2>
+              <p>Creating a building elevation involves designing the exterior appearance of a structure, considering style, materials, and proportions. These drawings serve as visual guides for construction, helping convey the intended look of the building to clients and teams</p>
               <Link to="">Read More</Link>
             </div>
           </div>
         </div>
         <div className="row mt-5">
           <div className="col-md-5 image-wrapper">
-            <img src={ourProject1} className='img-fluid rounded me-5' alt="first project not found" />
+            <img src={ourProject3} className='img-fluid rounded me-5' alt="first project not found" />
           </div>
           <div className="col-md-7">
             <div className='ms-4'>
               <p>January 22, 2024</p>
-              <h2>Design Todays: Chronicles Creativity in
-                Interior Briliance</h2>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                aliquip ex ea commodo consequat. Duis aute irure dolor…</p>
+              <h2>Design Todays: </h2>
+              <h2>Create A Elevation In FSD</h2>
+              <p>Creating a building elevation involves designing the exterior appearance of a structure, considering style, materials, and proportions. These drawings serve as visual guides for construction, helping convey the intended look of the building to clients and teams</p>
               <Link to="">Read More</Link>
             </div>
           </div>

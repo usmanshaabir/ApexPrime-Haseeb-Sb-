@@ -29,18 +29,17 @@ const Choose = () => {
                 <div className="col-md-6" data-aos="fade-down-right">
                   <div class="card text-white card-responsive" style={{ backgroundColor: "#212121" }}>
                     <div class="card-body">
-                      <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper.</p>
-                      <span className='display-4'>Creative Excellent</span>
-                      <span className='display-4'>01</span>
+                      <p class="card-text">Driven by Creative Excellence, our architecture melds innovation with meticulous craftsmanship for structures that are as unique as they are exceptional</p>
+                      <span className='display-5'>Creative Excellent</span>
                     </div>
                   </div>
                 </div>
                 <div className="col-md-6" data-aos="fade-down-left">
                   <div class="card text-white" style={{ backgroundColor: "#212121" }}>
                     <div class="card-body">
-                      <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper.</p>
-                      <span className='display-4'>Creative Excellent</span>
-                      <span className='display-4'>01</span>
+                      <p class="card-text">At the core of our architectural ethos is 'Client Centricity,' ensuring personalized designs that reflect the unique visions and practical needs of those.</p>
+                      <span className='display-5'>Client</span>
+                      <p className='display-5 mb-0'>Centric</p>
                     </div>
                   </div>
                 </div>
@@ -49,18 +48,16 @@ const Choose = () => {
                 <div className="col-md-6" data-aos="fade-up-right" >
                   <div class="card text-white card-responsive" style={{ backgroundColor: "#212121" }}>
                     <div class="card-body">
-                      <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper.</p>
-                      <span className='display-4'>Creative Excellent</span>
-                      <span className='display-4'>01</span>
+                      <p class="card-text">Our third step, 'Sustainable Innovation,' guides us to design spaces that are both forward-thinking and environmentally conscious, balancing aesthetics with ecological integrity.</p>
+                      <span className='display-5'>Sustainable Innovation</span>
                     </div>
                   </div>
                 </div>
                 <div className="col-md-6" data-aos="fade-up-left">
                   <div class="card text-white" style={{ backgroundColor: "#212121" }}>
                     <div class="card-body">
-                      <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper.</p>
-                      <span className='display-4'>Creative Excellent</span>
-                      <span className='display-4'>01</span>
+                      <p class="card-text">Our fourth step is 'Attention to Detail,' where we meticulously refine every element to achieve architectural perfection and enduring quality in our designs.</p>
+                      <span className='display-5'>Attention to Detial</span>
                     </div>
                   </div>
                 </div>

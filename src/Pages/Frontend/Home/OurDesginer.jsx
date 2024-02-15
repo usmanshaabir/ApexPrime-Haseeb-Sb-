@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import haseeb from "../../../Assets/Images/haseeb.png";
-import fahid from "../../../Assets/Images/fahid.png";
+import haseebBrother from "../../../Assets/Images/hassebBrother.jpeg";
 import instragram from "../../../Assets/Images/instagram.png";
 import facebook from "../../../Assets/Images/facebook.png";
 import linkdin from "../../../Assets/Images/linkedin.png";
@@ -46,9 +46,9 @@ const OurDesginer = () => {
           </div>
           <div className="col-md-4 mb-3" data-aos="zoom-in-up">
             <div className="card border-0 rounded-0" style={{ backgroundColor: "#F9F1E7" }}>
-              <img src={fahid} className="card-img-top p-2 img-fluid" alt="Architectural" />
+              <img src={haseebBrother} className="card-img-top p-2 img-fluid haseeb-brother" alt="haseebBrother not found" />
               <div className="card-body">
-                <h3 className="card-title">Fahid Jutt</h3>
+                <h3 className="card-title ">Haseeb Brother</h3>
                 <p className="card-text">2D Planner</p>
                 <img src={instragram} alt="instragram icon not found" />
                 <img src={facebook} className='ms-3' alt="instragram icon not found" />
@@ -58,7 +58,7 @@ const OurDesginer = () => {
           </div>
           <div className="col-md-4 mb-3" data-aos="zoom-in-down">
             <div className="card border-0 rounded-0" style={{ backgroundColor: "#F9F1E7" }}>
-              <img src={nauman} className="card-img-top p-2 img-fluid" alt="Architectural" />
+              <img src={nauman} className="card-img-top p-2 img-fluid haseeb-brother" alt="Architectural" />
               <div className="card-body">
                 <h3 className="card-title">Nauman Shabbir</h3>
                 <p className="card-text">React Developer</p>

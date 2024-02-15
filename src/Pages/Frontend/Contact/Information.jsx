@@ -66,8 +66,8 @@ const Information = () => {
                 <textarea className="form-control" value={state.message} name="message" onChange={(event) => setState({ ...state, message: event.target.value })} rows="5" placeholder="Your message here"></textarea>
               </div>
               <div className="d-grid">
-                <button type="submit" value="send" className="btn btn-dark">{isApploading ? "Send Message" : <span class="spinner-border text-light" role="status">
-                  <span class="visually-hidden">Loading...</span></span>}</button>
+                <button type="submit" value="send" className="btn btn-dark">{isApploading ? "Send Message" : <span className="spinner-border text-light" role="status">
+                  <span className="visually-hidden">Loading...</span></span>}</button>
               </div>
             </form>
           </div>

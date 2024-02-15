@@ -17,7 +17,8 @@ export default function FooterPage() {
             <div className="col-md-5">
               <h2 className='text-light'>Apex Prime </h2>
               <h2 className='text-light'>Architects </h2>
-              <p className='text-light pt-3 pb-4 w-75'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+              <p className='text-light pt-3 pb-4 w-75'>
+                "ApexPrime": Architectural excellence redefined. Innovative design, inspiring spaces.</p>
               <div className='mb-5'>
                 <img src={instragram} className='me-2' alt="instragram icon not found" />
                 <img src={linkdin} className='me-2' alt="linkdin icon not found" />
@@ -42,9 +43,9 @@ export default function FooterPage() {
             </div>
             <div className="col-md-3">
               <ul className='p-0 fs-5' style={{ color: "#E89F71" }}>GET IN TOUCH</ul>
-              <li className='text-light pb-2' style={{ listStyleType: "none" }}> <img src={location} className='me-2' alt="location lcon not found" />Chanone road cityMall Plaza</li>
+              <li className='text-light pb-2' style={{ listStyleType: "none" }}> <img src={location} className='me-2' alt="location lcon not found" />Chanone road cityMall Plaza Faisalabad</li>
               <li className='text-light pb-2' style={{ listStyleType: "none" }}> <img src={phoneNumber} className='me-2' alt="phoneNumber lcon not found" />+92 304 7649053</li>
-              <li className='text-light pb-2' style={{ listStyleType: "none" }}> <img src={email} className='me-2' alt="email lcon not found" />mnaumanshabbir@gmail.com</li>
+              <li className='text-light pb-2' style={{ listStyleType: "none" }}> <img src={email} className='me-2' alt="email lcon not found" />haseebshahzad.arch@gmail.com</li>
             </div>
             <div className='policy mb-5'>
               <div className='text-light'>

@@ -12,7 +12,7 @@ const ProcessSection = () => {
             <div className="card h-100 border-0">
               <div className="card-body" style={{ backgroundColor: "#f8f2eb" }}>
                 <h3 className="card- text-center mt-5 display-4 fw-medium"> Strategy & Planning</h3>
-                <p className="card-text text-center mt-4 mb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+                <p className="card-text text-center mt-4 mb-5">In architecture, planning involves assessing needs, analyzing sites, creating designs, ensuring compliance, collaborating, and managing projects for success.</p>
               </div>
             </div>
           </div>
@@ -20,7 +20,7 @@ const ProcessSection = () => {
             <div className="card h-100 border-0">
               <div className="card-body" style={{ backgroundColor: "#f8f2eb" }}>
                 <h3 className="card- text-center mt-5 display-4 fw-medium">Concept Design</h3>
-                <p className="card-text text-center mt-4 mb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+                <p className="card-text text-center mt-4 mb-5">Concept design in architecture is the creative stage where ideas are generated to address project requirements. It involves visualizing concepts, developing themes, and incorporating innovation and client feedback.</p>
               </div>
             </div>
           </div>
@@ -28,7 +28,7 @@ const ProcessSection = () => {
             <div className="card h-100 border-0">
               <div className="card-body" style={{ backgroundColor: "#f8f2eb" }}>
                 <h3 className="card- text-center mt-5 display-4 fw-medium">Design Realization</h3>
-                <p className="card-text text-center mt-4 mb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+                <p className="card-text text-center mt-4 mb-5">Design realization in architecture is the phase where conceptual designs become tangible structures through detailed planning, technical integration, regulatory compliance, construction documentation, and client communication</p>
               </div>
             </div>
           </div>

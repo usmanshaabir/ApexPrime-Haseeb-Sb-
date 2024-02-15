@@ -24,19 +24,19 @@ const ContactInfo = () => {
           <div className="col-12 col-md-4 mb-3" data-aos="flip-left">
             <div className="p-4 border bg-dark text-light rounded-4">
               <h5>Address</h5>
-              <p>KLLG st, No.99, Pku City, ID 28289</p>
+              <p>Chanone road cityMall Plaza Faisalabad Pakistan</p>
             </div>
           </div>
           <div className="col-12 col-md-4 mb-3" data-aos="flip-right">
             <div className="p-4 border bg-dark text-light rounded-4">
               <h5>Phone</h5>
-              <p>0761-8523-398</p>
+              <p>+92304-7649053</p>
             </div>
           </div>
           <div className="col-12 col-md-4 mb-3" data-aos="flip-right">
             <div className="p-4 border bg-dark text-light rounded-4">
               <h5>Email</h5>
-              <p>hello@domainsite.com</p>
+              <p>haseebshahzad.arch@gmail.com</p>
             </div>
           </div>
         </div>
