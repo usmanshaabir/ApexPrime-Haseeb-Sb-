@@ -1,7 +1,7 @@
 import React from 'react';
 import ourProject1 from "../../../Assets/Images/212p.jpg"
 import ourProject2 from "../../../Assets/Images/sdf.jpg"
-import ourProject3 from "../../../Assets/Images/project3.jpg"
+import ourProject3 from "../../../Assets/Images/VIEW.jpg"
 import { Link } from 'react-router-dom';
 
 export default function OurJounery() {

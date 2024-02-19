@@ -7,12 +7,12 @@ import Header from "../Components/Header"
 import Footer from "../Components/Footer"
 
 export default function PrivateRoutes() {
-  const scrollToTop = () => {
-    window.scrollTo({
-      top: 0,
-      behavior: 'smooth'
-    });
-  };
+  // const scrollToTop = () => {
+  //   window.scrollTo({
+  //     top: 0,
+  //     behavior: 'smooth'
+  //   });
+  // };
 
   const scrollWhatsApp = () => {
     const whatsAppLink = 'https://wa.me/+923047649053';
@@ -22,9 +22,9 @@ export default function PrivateRoutes() {
     <>
       <Header />
       <main>
-        <div className='text-end'>
+        {/* <div className='text-end'>
           <img src={ScrollToUp} onClick={scrollToTop} className="scroll-to-up" alt="ScrollToUp Not Found" />
-        </div>
+        </div> */}
         <div className='text-start'>
           <img src={whatsApp} onClick={scrollWhatsApp} className="whats-app" alt="ScrollToUp Not Found" />
         </div>

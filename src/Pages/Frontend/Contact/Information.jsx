@@ -1,5 +1,5 @@
 import React, { useRef, useState } from 'react';
-import contact from "../../../Assets/Images/ourproject.jpg";
+import contact from "../../../Assets/Images/contact.jpg";
 import emailjs from '@emailjs/browser';
 import 'react-toastify/dist/ReactToastify.css';
 import { ToastContainer, toast } from 'react-toastify';

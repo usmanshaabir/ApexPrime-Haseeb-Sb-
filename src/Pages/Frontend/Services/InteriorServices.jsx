@@ -1,5 +1,5 @@
 import React from 'react';
-import interiorDesgin from "../../../Assets/Images/interiorServices.jpg"
+import interiorDesgin from "../../../Assets/Images/interiorser.jpg"
 
 export default function InteriorServices() {
   return (

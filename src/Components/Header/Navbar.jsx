@@ -13,7 +13,9 @@ export default function Navbar() {
       <div className="container">
         <div className="row">
           <nav className="navbar navbar-expand-lg bg-dark navbar-dark">
-            <div className="container-fluid justify-content-end">
+            <div className="container-fluid ">
+              <a class="navbar-brand" href="#">Apex Prime Architect</a>
+              {/* <div className=" justify-content-end"> */}
               <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span className="navbar-toggler-icon"></span>
               </button>
@@ -36,6 +38,7 @@ export default function Navbar() {
                   </li>
                 </ul>
               </div>
+              {/* </div> */}
             </div>
           </nav>
         </div>

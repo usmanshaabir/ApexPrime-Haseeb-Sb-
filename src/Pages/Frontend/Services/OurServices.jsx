@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
-import archecturalDesgin from "../../../Assets/Images/archectural.jpg";
-import interiorDesgin from "../../../Assets/Images/interior.jpg";
-import remoldingDesgin from "../../../Assets/Images/remoldingImage.jpg";
+import archecturalDesgin from "../../../Assets/Images/home2.jpg";
+import interiorDesgin from "../../../Assets/Images/home3.jpg";
+import remoldingDesgin from "../../../Assets/Images/home4.jpg";
 import Sustainability from "../../../Assets/Images/Sustainability.jpg";
 import DecorArt from "../../../Assets/Images/Decor&Art.jpg";
 import Renovation from "../../../Assets/Images/Renovation.jpg";
@@ -44,7 +44,7 @@ const OurServices = () => {
         <div className="row mt-5 pt-5">
           <div className="col-md-4 mb-3 " data-aos="fade-up">
             <div className="card border-0">
-              <img src={archecturalDesgin} className="card-img-top rounded-5 p-3" alt="Architectural" />
+              <img src={archecturalDesgin} style={{ height: "24rem" }} className="card-img-top rounded-5 p-3" alt="Architectural" />
               <div className="card-body">
                 <h3 className="card-title">Architectural</h3>
                 <p className="card-text">As an architect, you design and plan buildings and structures, ensuring they are both visually appealing and functional. <span >{showMore ? "..." : " "}</span>
@@ -58,7 +58,7 @@ const OurServices = () => {
           </div>
           <div className="col-md-4 mb-3" data-aos="fade-down">
             <div className="card border-0">
-              <img src={interiorDesgin} className="card-img-top rounded-5 p-3" alt="Architectural" />
+              <img src={interiorDesgin} style={{ height: "24rem" }} className="card-img-top rounded-5 p-3" alt="Architectural" />
               <div className="card-body">
                 <h3 className="card-title">Interior</h3>
                 <p className="card-text">
@@ -73,7 +73,7 @@ const OurServices = () => {
           </div>
           <div className="col-md-4 mb-3" data-aos="fade-up">
             <div className="card border-0">
-              <img src={remoldingDesgin} className="card-img-top rounded-5 p-3" alt="Architectural" />
+              <img src={remoldingDesgin} style={{ height: "24rem" }} className="card-img-top rounded-5 p-3" alt="Architectural" />
               <div className="card-body">
                 <h3 className="card-title">Remodeling</h3>
                 <p className="card-text">
@@ -86,9 +86,6 @@ const OurServices = () => {
               </div>
             </div>
           </div>
-
-
-
         </div>
         <div className="row mt-3">
           <div className="col-md-4 mb-3" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
@@ -96,7 +93,7 @@ const OurServices = () => {
               <img src={Sustainability} className="card-img-top rounded-5 p-3" alt="Sustainability not found" />
               <div className="card-body">
                 <h3 className="card-title">Sustainability</h3>
-                <p className="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis.</p>
+                <p className="card-text">Designing tomorrow's spaces with today's resources in mind, creating sustainable harmony.</p>
                 <button className="btn" style={{ color: "#9B6F4C" }}>Read More →</button>
               </div>
             </div>
@@ -106,7 +103,7 @@ const OurServices = () => {
               <img src={DecorArt} className="card-img-top rounded-5 p-3" alt="DecorArt not found" />
               <div className="card-body">
                 <h3 className="card-title">Decor & Art</h3>
-                <p className="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis.</p>
+                <p className="card-text">Infusing spaces with the essence of beauty through curated decor and inspired artistry.</p>
                 <button className="btn" style={{ color: "#9B6F4C" }}>Read More →</button>
               </div>
             </div>
@@ -116,7 +113,7 @@ const OurServices = () => {
               <img src={Renovation} className="card-img-top rounded-5 p-3" alt="Renovation not found" />
               <div className="card-body">
                 <h3 className="card-title">Renovation</h3>
-                <p className="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis.</p>
+                <p className="card-text">Revitalize spaces with modern functionality and timeless aesthetics.</p>
                 <button className="btn" style={{ color: "#9B6F4C" }}>Read More →</button>
               </div>
             </div>

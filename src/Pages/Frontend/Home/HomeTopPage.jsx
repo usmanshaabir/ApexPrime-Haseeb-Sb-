@@ -8,10 +8,10 @@ const HomeTopPage = () => {
     <>
       <div className='heroContainer'>
         <div className='content'>
-          <h1>Boost Spaces,</h1>
-          <h1>Motivate Lives.</h1>
-          <p >Step into a Realm of Warmth and Design Excellence: Your</p>
-          <p > Your Invitation to Interior Innovation and Cozy Living.</p>
+          <h1>Apex Prime</h1>
+          <h1>Architect</h1>
+          <p>Step into a Realm of Warmth and Design Excellence: Your</p>
+          <p> Your Invitation to Interior Innovation and Cozy Living.</p>
           <button className='rounded-pill button mt-4'>Get Started</button>
           <button className='rounded-pill button mt-4'>Learn More</button>
         </div>
@@ -21,7 +21,7 @@ const HomeTopPage = () => {
         <div className="container">
           <div className="row">
             <div className="col-md-3 card-responsive">
-              <h4 className='ps-5 ms-4 text-white heading-number'>5+</h4>
+              <h4 className='ps-5 ms-4 text-white heading-number'>10+</h4>
               <h4 className='text-white'>Years of Experience</h4>
             </div>
             <div className="col-md-3 card-responsive">
@@ -33,7 +33,7 @@ const HomeTopPage = () => {
               <h4 className='text-white'>Complete Project</h4>
             </div>
             <div className="col-md-3 card-responsive">
-              <h4 className='ps-5 ms-4 text-white heading-number'>25+</h4>
+              <h4 className='ps-5 ms-4 text-white heading-number'>50+</h4>
               <h4 className='text-white'>Award & Nominee</h4>
             </div>
           </div>

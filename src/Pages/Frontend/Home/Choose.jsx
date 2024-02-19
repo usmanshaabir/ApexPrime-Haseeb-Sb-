@@ -1,18 +1,25 @@
 import React, { useEffect } from 'react';
-import choose from "../../../Assets/Images/choose.jpg";
+import choose from "../../../Assets/Images/home5.jpg";
 import "../../../Scss/_homeStyling.scss";
 import AOS from "aos";
 import "aos/dist/aos.css"
-
-
+import { useNavigate } from 'react-router-dom';
 
 const Choose = () => {
+  const navigtion = useNavigate()
+
   useEffect(() => {
     AOS.init({
       duration: 2000,
       once: true,
     });
   }, []);
+
+
+  const handleConnect = () => {
+    navigtion("/contact")
+  }
+
   return (
     <>
       <section className="why-choose-us py-5">
@@ -77,7 +84,7 @@ const Choose = () => {
           <h2 >Connect With Us! Let's</h2>
           <h2 >Design Your Dream Together</h2>
           <div className='mt-3' style={{ zIndex: "2" }}>
-            <button type="button" class="btn btn-lg text-light rounded-pill" style={{ backgroundColor: "#E89F71" }}>Get Started</button>
+            <button type="button" class="btn btn-lg text-light rounded-pill" style={{ backgroundColor: "#E89F71" }} onClick={handleConnect}>Get Started</button>
           </div>
         </div>
       </section>

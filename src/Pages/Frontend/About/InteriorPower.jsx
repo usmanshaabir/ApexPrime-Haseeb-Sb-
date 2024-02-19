@@ -1,5 +1,5 @@
 import React from 'react';
-import interiorPower from "../../../Assets/Images/interiorPower.jpg"
+import interiorPower from "../../../Assets/Images/about2.jpg"
 
 export default function InteriorPower() {
   return (

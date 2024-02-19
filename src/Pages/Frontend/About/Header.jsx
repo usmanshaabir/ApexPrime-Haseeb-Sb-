@@ -4,7 +4,7 @@ export default function Header() {
   return (
     <>
       <header>
-        <div className='parallax'>
+        <div className='parallax-about'>
           <h2 className=' aboutSection'>About Us</h2>
           <h5 className='about'>Home / About us</h5>
         </div>

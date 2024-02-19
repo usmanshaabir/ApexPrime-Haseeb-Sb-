@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
-import archecturalDesgin from "../../../Assets/Images/archectural.jpg"
-import interiorDesgin from "../../../Assets/Images/interior.jpg"
-import remoldingDesgin from "../../../Assets/Images/remoldingImage.jpg"
+import archecturalDesgin from "../../../Assets/Images/home2.jpg"
+import interiorDesgin from "../../../Assets/Images/home3.jpg"
+import remoldingDesgin from "../../../Assets/Images/home4.jpg"
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
@@ -48,7 +48,7 @@ const OurServices = () => {
         <div className="row mt-5 pt-5">
           <div className="col-md-4 mb-3 " data-aos="fade-up">
             <div className="card border-0">
-              <img src={archecturalDesgin} className="card-img-top rounded-5 p-3" alt="Architectural" />
+              <img src={archecturalDesgin} className="card-img-top rounded-5 p-3" style={{ height: "25rem" }} alt="Architectural" />
               <div className="card-body">
                 <h3 className="card-title">Architectural</h3>
                 <p className="card-text">As an architect, you design and plan buildings and structures, ensuring they are both visually appealing and functional. <span >{showMore ? "..." : " "}</span>
@@ -62,7 +62,7 @@ const OurServices = () => {
           </div>
           <div className="col-md-4 mb-3" data-aos="fade-down">
             <div className="card border-0">
-              <img src={interiorDesgin} className="card-img-top rounded-5 p-3" alt="Architectural" />
+              <img src={interiorDesgin} style={{ height: "25rem" }} className="card-img-top rounded-5 p-3" alt="Architectural" />
               <div className="card-body">
                 <h3 className="card-title">Interior</h3>
                 <p className="card-text">
@@ -77,7 +77,7 @@ const OurServices = () => {
           </div>
           <div className="col-md-4 mb-3" data-aos="fade-up">
             <div className="card border-0">
-              <img src={remoldingDesgin} className="card-img-top rounded-5 p-3" alt="Architectural" />
+              <img src={remoldingDesgin} style={{ height: "25rem" }} className="card-img-top rounded-5 p-3" alt="Architectural" />
               <div className="card-body">
                 <h3 className="card-title">Remodeling</h3>
                 <p className="card-text">

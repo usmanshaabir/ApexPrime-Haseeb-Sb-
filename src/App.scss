@@ -7,6 +7,7 @@ $secondry : #E89F71;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    overflow: hidden;
 }
 
 // <uniquifier>: Use a uniquifier for the class name
@@ -33,7 +34,7 @@ main {
 // Choose Section SCSS
 
 .parallax {
-    background-image: url("./Assets/Images/archectural.jpg");
+    background-image: url("./Assets/Images/interiorToHaseeb.jpg");
     /* Set a specific height */
     min-height: 500px;
     position: relative;
@@ -48,6 +49,35 @@ main {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.parallax-about {
+    background-image: url("./Assets/Images/12.jpg");
+    /* Set a specific height */
+    min-height: 500px;
+    position: relative;
+
+    @media (max-width:770px) {
+        min-height: 230px;
+
+    }
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax-about::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.5;
 }
 
 .parallax::before {
@@ -83,6 +113,45 @@ main {
     @media (max-width:430px) {
         font-size: 29px !important;
     }
+}
+
+.parallax-about>.aboutSection {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    color: white;
+    font-size: 115px;
+
+
+    @media (max-width:1448px) {
+        font-size: 71px;
+    }
+
+    @media (max-width:790px) {
+        font-size: 49px !important;
+        text-align: center;
+    }
+
+    @media (max-width:430px) {
+        font-size: 29px !important;
+    }
+}
+
+.parallax-about>.about {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    color: white;
+
+    @media (max-width:770px) {
+        top: 75%;
+        font-size: 1rem !important;
+    }
+
 }
 
 .parallax>.about {
@@ -150,18 +219,18 @@ main {
 // }
 
 
-.scroll-to-up {
-    position: fixed;
-    right: 10px;
-    bottom: 10px;
-    cursor: pointer;
-    z-index: 3;
+// .scroll-to-up {
+//     position: fixed;
+//     right: 10px;
+//     bottom: 10px;
+//     cursor: pointer;
+//     z-index: 3;
 
-}
+// }
 
 .whats-app {
     position: fixed;
-    left: 10px;
+    right: 10px;
     bottom: 10px;
     cursor: pointer;
     z-index: 3;

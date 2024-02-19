@@ -3,7 +3,7 @@ import FirstProject1 from "../../../Assets/Images/8 (4).jpg";
 import SecondProject from "../../../Assets/Images/secondProject.jpg";
 import SecondProject1 from "../../../Assets/Images/12.jpg";
 import SecondProject2 from "../../../Assets/Images/0 (1).jpg";
-import ourProject5 from "../../../Assets/Images/ourProject5.jpg";
+import ourProject5 from "../../../Assets/Images/OurProject6.jpg";
 
 import AOS from "aos";
 import "aos/dist/aos.css"

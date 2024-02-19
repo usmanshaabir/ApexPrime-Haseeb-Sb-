@@ -11,7 +11,7 @@ import email from "../../Assets/Images/email.png";
 export default function FooterPage() {
   return (
     <>
-      <footer style={{ backgroundColor: "#1C1C1C" }}>
+      <footer style={{ backgroundColor: "#1C1C1C", overflow: "hidden" }}>
         <div className="container pt-5">
           <div className="row">
             <div className="col-md-5">

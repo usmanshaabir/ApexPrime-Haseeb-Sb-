@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import archecturalDesgin from "../../../Assets/Images/interiorToHaseeb.jpg"
-import elevation from "../../../Assets/Images/HafizGilaniSb.jpg"
+import elevation from "../../../Assets/Images/homeOurProject.jpg"
 import AOS from "aos";
 import "aos/dist/aos.css"
 
