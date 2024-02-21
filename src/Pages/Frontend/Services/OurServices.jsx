@@ -3,7 +3,7 @@ import archecturalDesgin from "../../../Assets/Images/home2.jpg";
 import interiorDesgin from "../../../Assets/Images/home3.jpg";
 import remoldingDesgin from "../../../Assets/Images/home4.jpg";
 import Sustainability from "../../../Assets/Images/Sustainability.jpg";
-import DecorArt from "../../../Assets/Images/Decor&Art.jpg";
+import DecorArt from "../../../Assets/Images/doorAndArt.jpg";
 import Renovation from "../../../Assets/Images/Renovation.jpg";
 import AOS from "aos";
 import "aos/dist/aos.css"
@@ -90,7 +90,7 @@ const OurServices = () => {
         <div className="row mt-3">
           <div className="col-md-4 mb-3" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
             <div className="card border-0">
-              <img src={Sustainability} className="card-img-top rounded-5 p-3" alt="Sustainability not found" />
+              <img src={Sustainability} style={{ height: "24rem" }} className="card-img-top rounded-5 p-3" alt="Sustainability not found" />
               <div className="card-body">
                 <h3 className="card-title">Sustainability</h3>
                 <p className="card-text">Designing tomorrow's spaces with today's resources in mind, creating sustainable harmony.</p>
@@ -100,7 +100,7 @@ const OurServices = () => {
           </div>
           <div className="col-md-4 mb-3" data-aos="flip-left">
             <div className="card border-0">
-              <img src={DecorArt} className="card-img-top rounded-5 p-3" alt="DecorArt not found" />
+              <img src={DecorArt} style={{ height: "24rem" }} className="card-img-top rounded-5 p-3" alt="DecorArt not found" />
               <div className="card-body">
                 <h3 className="card-title">Decor & Art</h3>
                 <p className="card-text">Infusing spaces with the essence of beauty through curated decor and inspired artistry.</p>
@@ -110,7 +110,7 @@ const OurServices = () => {
           </div>
           <div className="col-md-4 mb-3" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
             <div className="card border-0">
-              <img src={Renovation} className="card-img-top rounded-5 p-3" alt="Renovation not found" />
+              <img src={Renovation} style={{ height: "24rem" }} className="card-img-top rounded-5 p-3" alt="Renovation not found" />
               <div className="card-body">
                 <h3 className="card-title">Renovation</h3>
                 <p className="card-text">Revitalize spaces with modern functionality and timeless aesthetics.</p>
