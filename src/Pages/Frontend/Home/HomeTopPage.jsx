@@ -12,8 +12,6 @@ const HomeTopPage = () => {
           <h1>Architect</h1>
           <p>Step into a Realm of Warmth and Design Excellence: Your</p>
           <p> Your Invitation to Interior Innovation and Cozy Living.</p>
-          <button className='rounded-pill button mt-4'>Get Started</button>
-          <button className='rounded-pill button mt-4'>Learn More</button>
         </div>
         <div className='overlay'></div>
       </div>

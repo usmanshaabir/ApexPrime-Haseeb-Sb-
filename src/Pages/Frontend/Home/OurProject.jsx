@@ -3,9 +3,11 @@ import archecturalDesgin from "../../../Assets/Images/interiorToHaseeb.jpg"
 import elevation from "../../../Assets/Images/homeOurProject.jpg"
 import AOS from "aos";
 import "aos/dist/aos.css"
+import { useNavigate } from 'react-router-dom';
 
 
 const OurProject = () => {
+  const navigation = useNavigate()
 
   useEffect(() => {
     AOS.init({
@@ -13,6 +15,10 @@ const OurProject = () => {
       once: false
     })
   }, [])
+
+  const handleExpolre = () => {
+    navigation("/project")
+  }
   return (
     <section className="services-section py-5" style={{ backgroundColor: "#EDE4D9" }}>
       <div className="container">
@@ -23,7 +29,7 @@ const OurProject = () => {
             <p className="lead">Our project combines practicality with sustainability, using eco-friendly materials and smart design to create spaces that feel good and do good for the planet. Every detail is crafted with care to ensure quality and comfort</p>
           </div>
           <div className="col-md-4 text-end">
-            <button className="btn btn-dark text-light rounded-pill px-4 py-3 fs-5" >Explore All</button>
+            <button className="btn btn-dark text-light rounded-pill px-4 py-3 fs-5" onClick={handleExpolre} >Explore All</button>
           </div>
         </div>
         <div className="row mt-5 pt-5">

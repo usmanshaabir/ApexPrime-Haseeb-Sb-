@@ -7,9 +7,11 @@ import linkdin from "../../../Assets/Images/linkedin.png";
 import nauman from "../../../Assets/Images/nauman.png";
 import AOS from "aos";
 import "aos/dist/aos.css"
+import { useNavigate } from 'react-router-dom';
 
 
 const OurDesginer = () => {
+  const navigtion = useNavigate()
 
   useEffect(() => {
     AOS.init({
@@ -18,6 +20,11 @@ const OurDesginer = () => {
     })
 
   }, [])
+
+  const handleExplore = () => {
+    navigtion("/contact")
+  }
+
   return (
     <section className="services-section py-5" >
       <div className="container">
@@ -28,7 +35,7 @@ const OurDesginer = () => {
             <h2 className="display-4 ">Mestros</h2>
           </div>
           <div className="col-md-4 text-end">
-            <button className="btn btn-dark text-light rounded-pill px-4 py-3 fs-5" >Explore All</button>
+            <button className="btn btn-dark text-light rounded-pill px-4 py-3 fs-5" onClick={handleExplore} >Explore All</button>
           </div>
         </div>
         <div className="row mt-5 pt-5">

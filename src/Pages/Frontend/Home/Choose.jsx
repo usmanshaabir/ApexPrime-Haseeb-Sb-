@@ -17,7 +17,9 @@ const Choose = () => {
 
 
   const handleConnect = () => {
-    navigtion("/contact")
+    window.scroll({
+      top: 0
+    })
   }
 
   return (

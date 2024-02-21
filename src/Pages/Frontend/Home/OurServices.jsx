@@ -64,12 +64,8 @@ const OurServices = () => {
               <img src={archecturalDesgin} className="card-img-top rounded-5 p-3" style={{ height: "25rem" }} alt="Architectural" />
               <div className="card-body">
                 <h3 className="card-title">Architectural</h3>
-                <p className="card-text">As an architect, you design and plan buildings and structures, ensuring they are both visually appealing and functional. <span >{showMore ? "..." : " "}</span>
-                  <span style={{ display: showMore ? 'none' : 'inline' }} id="more">
-                    You work closely with clients to understand their needs, create design concepts, produce detailed drawings, and oversee construction to ensure quality and safety. Collaboration with various professionals is key to successfully bringing projects to life.
-                  </span>
+                <p className="card-text">As an architect, you design and plan buildings and structures, ensuring they are both visually appealing and functional.
                 </p>
-                <button className="btn" style={{ color: "#9B6F4C" }} onClick={handleArchitect} id="myBtn">{showMore ? 'Read more' : 'Read less'}</button>
               </div>
             </div>
           </div>
@@ -78,12 +74,8 @@ const OurServices = () => {
               <img src={archecturalDesgin2} className="card-img-top rounded-5 p-3" style={{ height: "25rem" }} alt="Architectural" />
               <div className="card-body">
                 <h3 className="card-title">Architectural</h3>
-                <p className="card-text">As an architect, you design and plan buildings and structures, ensuring they are both visually appealing and functional. <span >{showMore ? "..." : " "}</span>
-                  <span style={{ display: showMore ? 'none' : 'inline' }} id="more">
-                    You work closely with clients to understand their needs, create design concepts, produce detailed drawings, and oversee construction to ensure quality and safety. Collaboration with various professionals is key to successfully bringing projects to life.
-                  </span>
+                <p className="card-text">As an architect, you craft and scheme buildings and structures, ensuring they marry visual charm with functionality.
                 </p>
-                <button className="btn" style={{ color: "#9B6F4C" }} onClick={handleArchitect} id="myBtn">{showMore ? 'Read more' : 'Read less'}</button>
               </div>
             </div>
           </div>
@@ -92,19 +84,12 @@ const OurServices = () => {
               <img src={archecturalDesgin3} className="card-img-top rounded-5 p-3" style={{ height: "25rem" }} alt="Architectural" />
               <div className="card-body">
                 <h3 className="card-title">Architectural</h3>
-                <p className="card-text">As an architect, you design and plan buildings and structures, ensuring they are both visually appealing and functional. <span >{showMore ? "..." : " "}</span>
-                  <span style={{ display: showMore ? 'none' : 'inline' }} id="more">
-                    You work closely with clients to understand their needs, create design concepts, produce detailed drawings, and oversee construction to ensure quality and safety. Collaboration with various professionals is key to successfully bringing projects to life.
-                  </span>
+                <p className="card-text">
+                  As an architect, you create and organize buildings and structures, ensuring they blend visual charm with functionality
                 </p>
-                <button className="btn" style={{ color: "#9B6F4C" }} onClick={handleArchitect} id="myBtn">{showMore ? 'Read more' : 'Read less'}</button>
               </div>
             </div>
           </div>
-
-
-
-
         </div>
         <div className="row mt-5 pt-5">
           <div className="col-md-4 mb-3 " data-aos="fade-up">
@@ -117,7 +102,6 @@ const OurServices = () => {
                     You work closely with clients to understand their needs, create design concepts, produce detailed drawings, and oversee construction to ensure quality and safety. Collaboration with various professionals is key to successfully bringing projects to life.
                   </span>
                 </p>
-                <button className="btn" style={{ color: "#9B6F4C" }} onClick={handleArchitect} id="myBtn">{showMore ? 'Read more' : 'Read less'}</button>
               </div>
             </div>
           </div>
@@ -132,7 +116,7 @@ const OurServices = () => {
                     Your work encompasses layout, color schemes, furniture selection, lighting, and decor, with a keen eye for detail. You coordinate with various professionals to bring designs to life, ensuring they align with the client's vision and budget.
                   </span>
                 </p>
-                <button className="btn" style={{ color: "#9B6F4C" }} onClick={handleInterior} id="myBtn">{interior ? 'Read more' : 'Read less'}</button>
+
               </div>
             </div>
           </div>
@@ -147,13 +131,9 @@ const OurServices = () => {
                     They collaborate closely with clients and contractors to ensure the project aligns with the client's vision and budget while maximizing functionality and aesthetics.
                   </span>
                 </p>
-                <button className="btn" style={{ color: "#9B6F4C" }} onClick={handleRemolding} id="myBtn">{remolding ? 'Read more' : 'Read less'}</button>
               </div>
             </div>
           </div>
-
-
-
         </div>
         <div className="row mt-5 pt-5">
           <div className="col-md-4 mb-3 " data-aos="fade-up">
@@ -161,12 +141,8 @@ const OurServices = () => {
               <img src={remolding1} className="card-img-top rounded-5 p-3" style={{ height: "25rem" }} alt="Architectural" />
               <div className="card-body">
                 <h3 className="card-title">Remolding</h3>
-                <p className="card-text">As an architect, you design and plan buildings and structures, ensuring they are both visually appealing and functional. <span >{showMore ? "..." : " "}</span>
-                  <span style={{ display: showMore ? 'none' : 'inline' }} id="more">
-                    You work closely with clients to understand their needs, create design concepts, produce detailed drawings, and oversee construction to ensure quality and safety. Collaboration with various professionals is key to successfully bringing projects to life.
-                  </span>
+                <p className="card-text">Revamping requires reshaping and reorganizing areas and place, ensuring they uphold both visual charm and usefulness.
                 </p>
-                <button className="btn" style={{ color: "#9B6F4C" }} onClick={handleArchitect} id="myBtn">{showMore ? 'Read more' : 'Read less'}</button>
               </div>
             </div>
           </div>
@@ -176,12 +152,8 @@ const OurServices = () => {
               <div className="card-body">
                 <h3 className="card-title">Remolding</h3>
                 <p className="card-text">
-                  As an interior designer, you craft visually appealing and functional indoor spaces by collaborating with clients to understand their needs and preferences <span >{interior ? "..." : " "}</span>
-                  <span style={{ display: interior ? 'none' : 'inline' }} id="more">
-                    Your work encompasses layout, color schemes, furniture selection, lighting, and decor, with a keen eye for detail. You coordinate with various professionals to bring designs to life, ensuring they align with the client's vision and budget.
-                  </span>
+                  Revamping entails reimagining and reorganizing areas, guaranteeing they uphold both visual allure and functionality.
                 </p>
-                <button className="btn" style={{ color: "#9B6F4C" }} onClick={handleInterior} id="myBtn">{interior ? 'Read more' : 'Read less'}</button>
               </div>
             </div>
           </div>
@@ -191,12 +163,8 @@ const OurServices = () => {
               <div className="card-body">
                 <h3 className="card-title">Remolding</h3>
                 <p className="card-text">
-                  In remodeling projects, interior designers revitalize existing spaces by optimizing layout, refreshing colors, updating fixtures, and enhancing decor. s <span >{remolding ? "..." : " "}</span>
-                  <span style={{ display: remolding ? 'none' : 'inline' }} id="more">
-                    They collaborate closely with clients and contractors to ensure the project aligns with the client's vision and budget while maximizing functionality and aesthetics.
-                  </span>
+                  Remodeling involves redesigning and restructuring spaces, ensuring they maintain both aesthetic appeal and practicality.
                 </p>
-                <button className="btn" style={{ color: "#9B6F4C" }} onClick={handleRemolding} id="myBtn">{remolding ? 'Read more' : 'Read less'}</button>
               </div>
             </div>
           </div>

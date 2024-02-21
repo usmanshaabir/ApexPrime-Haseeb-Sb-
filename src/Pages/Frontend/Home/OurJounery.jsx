@@ -2,9 +2,13 @@ import React from 'react';
 import ourProject1 from "../../../Assets/Images/212p.jpg"
 import ourProject2 from "../../../Assets/Images/sdf.jpg"
 import ourProject3 from "../../../Assets/Images/VIEW.jpg"
-import { Link } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 
 export default function OurJounery() {
+  const navigate = useNavigate()
+  const handleSee = () => {
+    navigate("/project")
+  }
   return (
     <>
       <div className="container mt-5 pt-5">
@@ -23,7 +27,6 @@ export default function OurJounery() {
               <h2>Design Todays: </h2>
               <h2>Create A Elevation In FSD</h2>
               <p>Creating a building elevation involves designing the exterior appearance of a structure, considering style, materials, and proportions. These drawings serve as visual guides for construction, helping convey the intended look of the building to clients and teams</p>
-              <Link to="">Read More</Link>
             </div>
           </div>
         </div>
@@ -37,7 +40,6 @@ export default function OurJounery() {
               <h2>Design Todays: </h2>
               <h2>Create A Elevation In FSD</h2>
               <p>Creating a building elevation involves designing the exterior appearance of a structure, considering style, materials, and proportions. These drawings serve as visual guides for construction, helping convey the intended look of the building to clients and teams</p>
-              <Link to="">Read More</Link>
             </div>
           </div>
         </div>
@@ -51,12 +53,11 @@ export default function OurJounery() {
               <h2>Design Todays: </h2>
               <h2>Create A Elevation In FSD</h2>
               <p>Creating a building elevation involves designing the exterior appearance of a structure, considering style, materials, and proportions. These drawings serve as visual guides for construction, helping convey the intended look of the building to clients and teams</p>
-              <Link to="">Read More</Link>
             </div>
           </div>
         </div>
         <div className='text-center mt-5 mb-5'>
-          <button type="button" class="btn btn-lg rounded-pill" style={{ backgroundColor: "#E89F71" }}>See More </button>
+          <button type="button" class="btn btn-lg rounded-pill" style={{ backgroundColor: "#E89F71" }} onClick={handleSee}>See More </button>
         </div>
       </div>
     </>

@@ -1,7 +1,12 @@
 import React from 'react';
 import interiorPower from "../../../Assets/Images/about2.jpg"
+import { useNavigate } from 'react-router-dom';
 
 export default function InteriorPower() {
+  const navigate = useNavigate()
+  const handleContact = () => {
+    navigate("/contact")
+  }
   return (
     <>
       <section className='interiorPower mt-5 pt-5'>
@@ -19,7 +24,7 @@ export default function InteriorPower() {
 
                 Interior power in construction refers to the electrical infrastructure installed within buildings to support lighting, appliances, equipment, and other electrical needs. It involves planning, designing, and implementing electrical systems to ensure safe and efficient power distribution throughout the interior spaces of a structure. This includes wiring, outlets, switches, circuit breakers, and other components necessary for electricity to flow reliably and meet the demands of occupants. Properly designed interior power systems are essential for ensuring functionality, comfort, and compliance with building codes and regulations.</p>
               <div>
-                <button type="button" class="btn btn-dark btn-lg rounded-pill mt-3">Contact Us</button>
+                <button type="button" class="btn btn-dark btn-lg rounded-pill mt-3" onClick={handleContact}>Contact Us</button>
               </div>
             </div>
           </div>

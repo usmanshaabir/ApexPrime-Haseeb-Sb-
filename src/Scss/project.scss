@@ -1,0 +1,67 @@
+.parallax-project {
+    background-image: url("../Assets/Images/projectHeader.jpg");
+    /* Set a specific height */
+    min-height: 500px;
+    position: relative;
+
+    @media (max-width:770px) {
+        min-height: 230px;
+
+    }
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax-project::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.5;
+}
+
+.parallax-project>.aboutSection {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    color: white;
+    font-size: 115px;
+
+
+    @media (max-width:1448px) {
+        font-size: 71px;
+    }
+
+    @media (max-width:790px) {
+        font-size: 49px !important;
+        text-align: center;
+    }
+
+    @media (max-width:430px) {
+        font-size: 29px !important;
+    }
+}
+
+.parallax-project>.about {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    color: white;
+
+    @media (max-width:770px) {
+        top: 75%;
+        font-size: 1rem !important;
+    }
+
+}
